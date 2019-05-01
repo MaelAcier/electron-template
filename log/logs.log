@@ -1,0 +1,1358 @@
+12:38:13 | info: Log start. Fri Apr 05 2019 12:38:13 GMT+0200 (Paris, Madrid (heure d’été))
+12:38:13 | error: test
+12:38:13 | warn: test
+12:38:13 | help: test
+12:38:13 | data: test
+12:38:13 | info: test
+12:38:13 | debug: test
+12:38:13 | prompt: test
+12:38:13 | verbose: test
+12:38:13 | input: test
+12:38:13 | trace: test
+12:38:13 | info: Pass an object and this works
+12:38:13 | info: Use a helper method if you want
+12:38:13 | info: Pass a message and this works
+12:38:13 | info: Use a helper method if you want
+12:38:13 | info: test message my string
+12:38:13 | info: test message 123
+12:38:13 | info: test message first, second
+12:38:13 | info: Found error at Fri Apr 05 2019 12:38:13 GMT+0200 (Paris, Madrid (heure d’été))
+12:38:13 | info: Found error at Error: chill winston
+12:38:13 | info: Found error at /WUT/
+12:38:13 | info: Found error at true
+12:38:13 | info: Found error at 100
+12:38:13 | info: Found error at 1, 2, 3
+12:38:13 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:38:13 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:38:13 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:38:13 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:38:13 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:38:13 | error: Error: Error as info
+12:38:13 | debug: heyyy
+12:38:13 | data: [object Object]
+12:38:13 | data: 5
+12:38:13 | data: 5,5
+12:40:09 | info: Log start. Fri Apr 05 2019 12:40:09 GMT+0200 (Paris, Madrid (heure d’été))
+12:40:09 | error: test
+12:40:09 | warn: test
+12:40:09 | help: test
+12:40:09 | data: test
+12:40:09 | info: test
+12:40:09 | debug: test
+12:40:09 | prompt: test
+12:40:09 | verbose: test
+12:40:09 | input: test
+12:40:09 | trace: test
+12:40:09 | info: Pass an object and this works
+12:40:09 | info: Use a helper method if you want
+12:40:09 | info: Pass a message and this works
+12:40:09 | info: Use a helper method if you want
+12:40:09 | info: test message my string
+12:40:09 | info: test message 123
+12:40:09 | info: test message first, second
+12:40:09 | info: Found error at Fri Apr 05 2019 12:40:09 GMT+0200 (Paris, Madrid (heure d’été))
+12:40:09 | info: Found error at Error: chill winston
+12:40:09 | info: Found error at /WUT/
+12:40:09 | info: Found error at true
+12:40:09 | info: Found error at 100
+12:40:09 | info: Found error at 1, 2, 3
+12:40:09 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:40:09 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:40:09 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:40:09 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:40:09 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:40:09 | error: Error: Error as info
+12:40:09 | debug: heyyy
+12:40:09 | data: [object Object]
+12:40:09 | data: 5
+12:40:09 | data: 5,5
+12:41:01 | info: Log start. Fri Apr 05 2019 12:41:01 GMT+0200 (Paris, Madrid (heure d’été))
+12:41:01 | error: test
+12:41:01 | warn: test
+12:41:01 | help: test
+12:41:01 | data: test
+12:41:01 | info: test
+12:41:01 | debug: test
+12:41:01 | prompt: test
+12:41:01 | verbose: test
+12:41:01 | input: test
+12:41:01 | trace: test
+12:41:01 | info: Pass an object and this works
+12:41:01 | info: Use a helper method if you want
+12:41:01 | info: Pass a message and this works
+12:41:01 | info: Use a helper method if you want
+12:41:01 | info: test message my string
+12:41:01 | info: test message 123
+12:41:01 | info: test message first, second
+12:41:01 | info: Found error at Fri Apr 05 2019 12:41:01 GMT+0200 (Paris, Madrid (heure d’été))
+12:41:01 | info: Found error at Error: chill winston
+12:41:01 | info: Found error at /WUT/
+12:41:01 | info: Found error at true
+12:41:01 | info: Found error at 100
+12:41:01 | info: Found error at 1, 2, 3
+12:41:01 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:41:01 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:41:01 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:41:01 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:41:01 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:41:01 | error: Error: Error as info
+12:41:01 | debug: heyyy
+12:41:01 | data: [object Object]
+12:41:01 | data: 5
+12:41:01 | data: 5,5
+12:41:01 | error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:93:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | info: Log start. Fri Apr 05 2019 12:43:15 GMT+0200 (Paris, Madrid (heure d’été))
+12:43:15 | error: test
+12:43:15 | warn: test
+12:43:15 | help: test
+12:43:15 | data: test
+12:43:15 | info: test
+12:43:15 | debug: test
+12:43:15 | prompt: test
+12:43:15 | verbose: test
+12:43:15 | input: test
+12:43:15 | trace: test
+12:43:15 | info: Pass an object and this works
+12:43:15 | info: Use a helper method if you want
+12:43:15 | info: Pass a message and this works
+12:43:15 | info: Use a helper method if you want
+12:43:15 | info: test message my string
+12:43:15 | info: test message 123
+12:43:15 | info: test message first, second
+12:43:15 | info: Found error at Fri Apr 05 2019 12:43:15 GMT+0200 (Paris, Madrid (heure d’été))
+12:43:15 | info: Found error at Error: chill winston
+12:43:15 | info: Found error at /WUT/
+12:43:15 | info: Found error at true
+12:43:15 | info: Found error at 100
+12:43:15 | info: Found error at 1, 2, 3
+12:43:15 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+12:43:15 | error: Error: Error as info
+12:43:15 | debug: heyyy
+12:43:15 | data: [object Object]
+12:43:15 | data: 5
+12:43:15 | data: 5,5
+19:32:51 | info: Log start. Fri Apr 05 2019 19:32:51 GMT+0200 (Paris, Madrid (heure d’été))
+19:32:52 | error: test
+19:32:52 | warn: test
+19:32:52 | help: test
+19:32:52 | data: test
+19:32:52 | info: test
+19:32:52 | debug: test
+19:32:52 | prompt: test
+19:32:52 | verbose: test
+19:32:52 | input: test
+19:32:52 | trace: test
+19:32:52 | info: Pass an object and this works
+19:32:52 | info: Use a helper method if you want
+19:32:52 | info: Pass a message and this works
+19:32:52 | info: Use a helper method if you want
+19:32:52 | info: test message my string
+19:32:52 | info: test message 123
+19:32:52 | info: test message first, second
+19:32:52 | info: Found error at Fri Apr 05 2019 19:32:52 GMT+0200 (Paris, Madrid (heure d’été))
+19:32:52 | info: Found error at Error: chill winston
+19:32:52 | info: Found error at /WUT/
+19:32:52 | info: Found error at true
+19:32:52 | info: Found error at 100
+19:32:52 | info: Found error at 1, 2, 3
+19:32:52 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:32:52 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:32:52 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:32:52 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:32:52 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:32:52 | error: Error: Error as info
+19:32:52 | debug: heyyy
+19:32:52 | data: [object Object]
+19:33:58 | info: hey you
+19:34:23 | data: 5
+19:34:23 | data: 5,5
+19:34:24 | error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:93:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | info: Log start. Fri Apr 05 2019 19:34:44 GMT+0200 (Paris, Madrid (heure d’été))
+19:34:44 | error: test
+19:34:44 | warn: test
+19:34:44 | help: test
+19:34:44 | data: test
+19:34:44 | info: test
+19:34:44 | debug: test
+19:34:44 | prompt: test
+19:34:44 | verbose: test
+19:34:44 | input: test
+19:34:44 | trace: test
+19:34:44 | info: Pass an object and this works
+19:34:44 | info: Use a helper method if you want
+19:34:44 | info: Pass a message and this works
+19:34:44 | info: Use a helper method if you want
+19:34:44 | info: test message my string
+19:34:44 | info: test message 123
+19:34:44 | info: test message first, second
+19:34:44 | info: Found error at Fri Apr 05 2019 19:34:44 GMT+0200 (Paris, Madrid (heure d’été))
+19:34:44 | info: Found error at Error: chill winston
+19:34:44 | info: Found error at /WUT/
+19:34:44 | info: Found error at true
+19:34:44 | info: Found error at 100
+19:34:44 | info: Found error at 1, 2, 3
+19:34:44 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+19:34:44 | error: Error: Error as info
+19:34:44 | debug: heyyy
+19:34:44 | data: [object Object]
+19:34:44 | data: 5
+19:34:44 | data: 5,5
+19:34:44 | error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:93:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29)
+15:07:13 | info: Log start. Sat Apr 06 2019 15:07:13 GMT+0200 (Paris, Madrid (heure d’été))
+15:11:13 | info: Log start. Sat Apr 06 2019 15:11:13 GMT+0200 (Paris, Madrid (heure d’été))
+15:11:13 | info: Loaded main process.
+15:11:25 | info: Log start. Sat Apr 06 2019 15:11:25 GMT+0200 (Paris, Madrid (heure d’été))
+15:11:25 | info: Loaded main process.
+15:11:39 | info: Log start. Sat Apr 06 2019 15:11:39 GMT+0200 (Paris, Madrid (heure d’été))
+15:11:39 | info: Loaded main process.
+15:12:38 | info: Log start. Sat Apr 06 2019 15:12:38 GMT+0200 (Paris, Madrid (heure d’été))
+15:12:38 | info: Loaded main process.
+15:12:52 | info: Log start. Sat Apr 06 2019 15:12:52 GMT+0200 (Paris, Madrid (heure d’été))
+15:12:52 | info: Loaded main process.
+19:23:14:2314 | info: Log start. Sun Apr 07 2019 19:23:14 GMT+0200 (Paris, Madrid (heure d’été))
+19:23:14:2314 | error: test
+19:23:14:2314 | warn: test
+19:23:14:2314 | help: test
+19:23:14:2314 | data: test
+19:23:14:2314 | info: test
+19:23:14:2314 | debug: test
+19:23:14:2314 | prompt: test
+19:23:14:2314 | verbose: test
+19:23:14:2314 | input: test
+19:23:14:2314 | trace: test
+19:23:14:2314 | info: Pass an object and this works
+19:23:14:2314 | info: Use a helper method if you want
+19:23:14:2314 | info: Pass a message and this works
+19:23:14:2314 | info: Use a helper method if you want
+19:23:14:2314 | info: test message my string
+19:23:14:2314 | info: test message 123
+19:23:14:2314 | info: test message first, second
+19:23:14:2314 | info: Found error at Sun Apr 07 2019 19:23:14 GMT+0200 (Paris, Madrid (heure d’été))
+19:23:14:2314 | info: Found error at Error: chill winston
+19:23:14:2314 | info: Found error at /WUT/
+19:23:14:2314 | info: Found error at true
+19:23:14:2314 | info: Found error at 100
+19:23:14:2314 | info: Found error at 1, 2, 3
+19:23:14:2314 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:100:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:23:14:2314 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:100:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:23:14:2314 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:100:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:23:14:2314 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:100:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:23:14:2314 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:100:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:23:14:2314 | error: Error: Error as info
+19:23:14:2314 | debug: heyyy
+19:23:14:2314 | data: [object Object]
+19:23:14:2314 | data: 5
+19:23:14:2314 | data: 5,5
+19:23:14:2314 | info: my message
+19:24:49:2449 | info: Log start. Sun Apr 07 2019 19:24:49 GMT+0200 (Paris, Madrid (heure d’été))
+19:24:49:2449 | error: test
+19:24:49:2449 | warn: test
+19:24:49:2449 | help: test
+19:24:49:2449 | data: test
+19:24:49:2449 | info: test
+19:24:49:2449 | debug: test
+19:24:49:2449 | prompt: test
+19:24:49:2449 | verbose: test
+19:24:49:2449 | input: test
+19:24:49:2449 | trace: test
+19:24:49:2449 | info: Pass an object and this works
+19:24:49:2449 | info: Use a helper method if you want
+19:24:49:2449 | info: Pass a message and this works
+19:24:49:2449 | info: Use a helper method if you want
+19:24:49:2449 | info: test message my string
+19:24:49:2449 | info: test message 123
+19:24:49:2449 | info: test message first, second
+19:24:49:2449 | info: Found error at Sun Apr 07 2019 19:24:49 GMT+0200 (Paris, Madrid (heure d’été))
+19:24:49:2449 | info: Found error at Error: chill winston
+19:24:49:2449 | info: Found error at /WUT/
+19:24:49:2449 | info: Found error at true
+19:24:49:2449 | info: Found error at 100
+19:24:49:2449 | info: Found error at 1, 2, 3
+19:24:49:2449 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:102:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:24:49:2449 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:102:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:24:49:2449 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:102:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:24:49:2449 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:102:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:24:49:2449 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:102:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:24:49:2449 | error: Error: Error as info
+19:24:49:2449 | debug: heyyy
+19:24:49:2449 | data: [object Object]
+19:24:49:2449 | data: 5
+19:24:49:2449 | data: 5,5
+19:24:49:2449 | info: my message
+19:25:37:2537 | info: Log start. Sun Apr 07 2019 19:25:37 GMT+0200 (Paris, Madrid (heure d’été))
+19:25:37:2537 | error: test
+19:25:37:2537 | warn: test
+19:25:37:2537 | help: test
+19:25:37:2537 | data: test
+19:25:37:2537 | info: test
+19:25:37:2537 | debug: test
+19:25:37:2537 | prompt: test
+19:25:37:2537 | verbose: test
+19:25:37:2537 | input: test
+19:25:37:2537 | trace: test
+19:25:37:2537 | info: Pass an object and this works
+19:25:37:2537 | info: Use a helper method if you want
+19:25:37:2537 | info: Pass a message and this works
+19:25:37:2537 | info: Use a helper method if you want
+19:25:37:2537 | info: test message my string
+19:25:37:2537 | info: test message 123
+19:25:37:2537 | info: test message first, second
+19:25:37:2537 | info: Found error at Sun Apr 07 2019 19:25:37 GMT+0200 (Paris, Madrid (heure d’été))
+19:25:37:2537 | info: Found error at Error: chill winston
+19:25:37:2537 | info: Found error at /WUT/
+19:25:37:2537 | info: Found error at true
+19:25:37:2537 | info: Found error at 100
+19:25:37:2537 | info: Found error at 1, 2, 3
+19:25:37:2537 | warn: Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:25:37:2537 | error: Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:25:37:2537 | warn: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:25:37:2537 | error: Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:25:37:2537 | error: Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+19:25:37:2537 | error: Error: Error as info
+19:25:37:2537 | debug: heyyy
+19:25:37:2537 | data: [object Object]
+19:25:37:2537 | data: 5
+19:25:37:2537 | data: 5,5
+19:25:37:2537 | error: ReferenceError: level is not defined
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:96:20)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+2019-04-07 19:30:57:345 | info: Log start. Sun Apr 07 2019 19:30:57 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:35:17:735 | info: Log start. Sun Apr 07 2019 19:35:17 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:36:59:444 | info: Log start. Sun Apr 07 2019 19:36:59 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:37:42:273 | info: Log start. Sun Apr 07 2019 19:37:42 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:38:03:624 | info: Log start. Sun Apr 07 2019 19:38:03 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:38:21:282 | info: Log start. Sun Apr 07 2019 19:38:21 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:38:40:408 | info: Log start. Sun Apr 07 2019 19:38:40 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:39:57:467 | info: Log start. Sun Apr 07 2019 19:39:57 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:40:22:727 | info: Log start. Sun Apr 07 2019 19:40:22 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:40:41:257 | info: Log start. Sun Apr 07 2019 19:40:41 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:40:59:397 | info: Log start. Sun Apr 07 2019 19:40:59 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:41:10:050 | info: Log start. Sun Apr 07 2019 19:41:10 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:41:26:867 | info: Log start. Sun Apr 07 2019 19:41:26 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:41:47:731 | info: Log start. Sun Apr 07 2019 19:41:47 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:42:11:341 | info: Log start. Sun Apr 07 2019 19:42:11 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:42:11:434 | error: TypeError: colors[Colorizer.allColors[lookup][i]] is not a function
+    at Colorizer.colorize (D:\code\Github\electron-template\node_modules\logform\colorize.js:81:55)
+    at Colorizer.transform (D:\code\Github\electron-template\node_modules\logform\colorize.js:98:25)
+    at Format.info [as transform] (D:\code\Github\electron-template\node_modules\logform\combine.js:20:24)
+    at Console._write (D:\code\Github\electron-template\node_modules\winston-transport\index.js:90:33)
+    at doWrite (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\code\Github\electron-template\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:662:20)
+    at emitOne (events.js:121:20)
+    at DerivedLogger.emit (events.js:211:7)
+2019-04-07 19:42:32:038 | info: Log start. Sun Apr 07 2019 19:42:32 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:43:15:150 | info: Log start. Sun Apr 07 2019 19:43:15 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:43:30:031 | info: Log start. Sun Apr 07 2019 19:43:30 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:43:40:694 | info: Log start. Sun Apr 07 2019 19:43:40 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:43:54:385 | info: Log start. Sun Apr 07 2019 19:43:54 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:44:36:350 | info: Log start. Sun Apr 07 2019 19:44:36 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:45:00:086 | info: Log start. Sun Apr 07 2019 19:45:00 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:45:09:550 | info: Log start. Sun Apr 07 2019 19:45:09 GMT+0200 (Paris, Madrid (heure d’été))
+2019-04-07 19:45:20:054 | info: Log start. Sun Apr 07 2019 19:45:20 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-07 19:46:04:369] [info] Log start. Sun Apr 07 2019 19:46:04 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-07 19:58:23.554] [info] Log start. Sun Apr 07 2019 19:58:23 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-08 22:39:50.889] [info] Log start. Mon Apr 08 2019 22:39:50 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-08 22:40:39.181] [info] Log start. Mon Apr 08 2019 22:40:39 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:09:23.646] [info] Log start. Tue Apr 09 2019 00:09:23 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:09:23.890] [error] TypeError: Cannot read property 'red' of undefined
+    at Object.<anonymous> (D:\code\Github\electron-template\logger.js:90:46)
+    at Object.<anonymous> (D:\code\Github\electron-template\logger.js:95:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\Github\electron-template\main.js:4:16)
+[2019-04-09 00:09:58.493] [info] Log start. Tue Apr 09 2019 00:09:58 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:09:58.645] [error] Error: Cannot find module 'robotjs'
+    at Module._resolveFilename (module.js:543:15)
+    at Function.Module._resolveFilename (D:\code\Github\electron-template\node_modules\electron\dist\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._load (module.js:473:25)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test.js:2:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test.js:17:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+[2019-04-09 00:10:22.483] [info] Log start. Tue Apr 09 2019 00:10:22 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:11:44.600] [info] Log start. Tue Apr 09 2019 00:11:44 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:13:12.397] [info] Log start. Tue Apr 09 2019 00:13:12 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:15:14.916] [info] Log start. Tue Apr 09 2019 00:15:14 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:20:01.329] [info] Log start. Tue Apr 09 2019 00:20:01 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:27:29.206] [info] Log start. Tue Apr 09 2019 00:27:29 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:27:29.300] [error] test
+[2019-04-09 00:27:29.301] [warn] test
+[2019-04-09 00:27:29.302] [help] test
+[2019-04-09 00:27:29.302] [data] test
+[2019-04-09 00:27:29.303] [info] test
+[2019-04-09 00:27:29.303] [debug] test
+[2019-04-09 00:27:29.304] [prompt] test
+[2019-04-09 00:27:29.304] [verbose] test
+[2019-04-09 00:27:29.304] [input] test
+[2019-04-09 00:27:29.305] [trace] test
+[2019-04-09 00:27:29.305] [info] Pass an object and this works
+[2019-04-09 00:27:29.306] [info] Use a helper method if you want
+[2019-04-09 00:27:29.307] [info] Pass a message and this works
+[2019-04-09 00:27:29.308] [info] Use a helper method if you want
+[2019-04-09 00:27:29.311] [info] test message my string
+[2019-04-09 00:27:29.312] [info] test message 123
+[2019-04-09 00:27:29.312] [info] test message first, second
+[2019-04-09 00:27:29.313] [info] Found error at Tue Apr 09 2019 00:27:29 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:27:29.314] [info] Found error at Error: chill winston
+[2019-04-09 00:27:29.314] [info] Found error at /WUT/
+[2019-04-09 00:27:29.335] [info] Found error at true
+[2019-04-09 00:27:29.335] [info] Found error at 100
+[2019-04-09 00:27:29.336] [info] Found error at 1, 2, 3
+[2019-04-09 00:27:29.336] [warn] Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:27:29.338] [error] Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:27:29.339] [warn] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:27:29.340] [error] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:27:29.341] [error] Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:27:29.342] [error] Error: Error as info
+[2019-04-09 00:27:29.343] [debug] heyyy
+[2019-04-09 00:27:29.343] [data] [object Object]
+[2019-04-09 00:27:29.344] [data] 5
+[2019-04-09 00:27:29.344] [data] 5,5
+[2019-04-09 00:27:29.466] [error] Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.226] [info] Log start. Tue Apr 09 2019 00:28:20 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:28:20.253] [error] test
+[2019-04-09 00:28:20.254] [warn] test
+[2019-04-09 00:28:20.254] [help] test
+[2019-04-09 00:28:20.255] [data] test
+[2019-04-09 00:28:20.255] [info] test
+[2019-04-09 00:28:20.256] [debug] test
+[2019-04-09 00:28:20.256] [prompt] test
+[2019-04-09 00:28:20.257] [verbose] test
+[2019-04-09 00:28:20.258] [input] test
+[2019-04-09 00:28:20.258] [trace] test
+[2019-04-09 00:28:20.259] [info] Pass an object and this works
+[2019-04-09 00:28:20.259] [info] Use a helper method if you want
+[2019-04-09 00:28:20.260] [info] Pass a message and this works
+[2019-04-09 00:28:20.261] [info] Use a helper method if you want
+[2019-04-09 00:28:20.262] [info] test message my string
+[2019-04-09 00:28:20.263] [info] test message 123
+[2019-04-09 00:28:20.263] [info] test message first, second
+[2019-04-09 00:28:20.264] [info] Found error at Tue Apr 09 2019 00:28:20 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:28:20.265] [info] Found error at Error: chill winston
+[2019-04-09 00:28:20.265] [info] Found error at /WUT/
+[2019-04-09 00:28:20.266] [info] Found error at true
+[2019-04-09 00:28:20.268] [info] Found error at 100
+[2019-04-09 00:28:20.268] [info] Found error at 1, 2, 3
+[2019-04-09 00:28:20.269] [warn] Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.271] [error] Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.272] [warn] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.273] [error] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.274] [error] Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:20.275] [error] Error: Error as info
+[2019-04-09 00:28:20.275] [debug] heyyy
+[2019-04-09 00:28:20.276] [data] [object Object]
+[2019-04-09 00:28:20.280] [data] 5
+[2019-04-09 00:28:20.282] [data] 5,5
+[2019-04-09 00:28:20.368] [error] Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.776] [info] Log start. Tue Apr 09 2019 00:28:37 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:28:37.806] [error] test
+[2019-04-09 00:28:37.807] [warn] test
+[2019-04-09 00:28:37.808] [help] test
+[2019-04-09 00:28:37.808] [data] test
+[2019-04-09 00:28:37.809] [info] test
+[2019-04-09 00:28:37.809] [debug] test
+[2019-04-09 00:28:37.810] [prompt] test
+[2019-04-09 00:28:37.810] [verbose] test
+[2019-04-09 00:28:37.811] [input] test
+[2019-04-09 00:28:37.811] [trace] test
+[2019-04-09 00:28:37.812] [info] Pass an object and this works
+[2019-04-09 00:28:37.813] [info] Use a helper method if you want
+[2019-04-09 00:28:37.814] [info] Pass a message and this works
+[2019-04-09 00:28:37.815] [info] Use a helper method if you want
+[2019-04-09 00:28:37.815] [info] test message my string
+[2019-04-09 00:28:37.816] [info] test message 123
+[2019-04-09 00:28:37.817] [info] test message first, second
+[2019-04-09 00:28:37.818] [info] Found error at Tue Apr 09 2019 00:28:37 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:28:37.819] [info] Found error at Error: chill winston
+[2019-04-09 00:28:37.819] [info] Found error at /WUT/
+[2019-04-09 00:28:37.820] [info] Found error at true
+[2019-04-09 00:28:37.820] [info] Found error at 100
+[2019-04-09 00:28:37.821] [info] Found error at 1, 2, 3
+[2019-04-09 00:28:37.822] [warn] Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.823] [error] Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.824] [warn] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.826] [error] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.827] [error] Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:28:37.828] [error] Error: Error as info
+[2019-04-09 00:28:37.829] [debug] heyyy
+[2019-04-09 00:28:37.829] [data] [object Object]
+[2019-04-09 00:28:37.830] [data] 5
+[2019-04-09 00:28:37.831] [data] 5,5
+[2019-04-09 00:28:37.917] [error] Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.884] [info] Log start. Tue Apr 09 2019 00:31:27 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:31:27.918] [error] test
+[2019-04-09 00:31:27.919] [warn] test
+[2019-04-09 00:31:27.919] [help] test
+[2019-04-09 00:31:27.920] [data] test
+[2019-04-09 00:31:27.920] [info] test
+[2019-04-09 00:31:27.921] [debug] test
+[2019-04-09 00:31:27.921] [prompt] test
+[2019-04-09 00:31:27.922] [verbose] test
+[2019-04-09 00:31:27.922] [input] test
+[2019-04-09 00:31:27.923] [trace] test
+[2019-04-09 00:31:27.923] [info] Pass an object and this works
+[2019-04-09 00:31:27.924] [info] Use a helper method if you want
+[2019-04-09 00:31:27.925] [info] Pass a message and this works
+[2019-04-09 00:31:27.925] [info] Use a helper method if you want
+[2019-04-09 00:31:27.926] [info] test message my string
+[2019-04-09 00:31:27.926] [info] test message 123
+[2019-04-09 00:31:27.927] [info] test message first, second
+[2019-04-09 00:31:27.927] [info] Found error at Tue Apr 09 2019 00:31:27 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:31:27.928] [info] Found error at Error: chill winston
+[2019-04-09 00:31:27.929] [info] Found error at /WUT/
+[2019-04-09 00:31:27.929] [info] Found error at true
+[2019-04-09 00:31:27.930] [info] Found error at 100
+[2019-04-09 00:31:27.930] [info] Found error at 1, 2, 3
+[2019-04-09 00:31:27.931] [warn] Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.932] [error] Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.933] [warn] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.934] [error] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.936] [error] Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:31:27.937] [error] Error: Error as info
+[2019-04-09 00:31:27.938] [debug] heyyy
+[2019-04-09 00:31:27.938] [data] [object Object]
+[2019-04-09 00:31:27.939] [data] 5
+[2019-04-09 00:31:27.940] [data] 5,5
+[2019-04-09 00:31:28.023] [error] Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:58.963] [info] App started.
+[2019-04-09 00:32:58.973] [error] test
+[2019-04-09 00:32:58.973] [warn] test
+[2019-04-09 00:32:58.973] [help] test
+[2019-04-09 00:32:58.973] [data] test
+[2019-04-09 00:32:58.983] [info] test
+[2019-04-09 00:32:58.983] [debug] test
+[2019-04-09 00:32:58.983] [prompt] test
+[2019-04-09 00:32:58.983] [verbose] test
+[2019-04-09 00:32:58.983] [input] test
+[2019-04-09 00:32:58.983] [trace] test
+[2019-04-09 00:32:58.983] [info] Pass an object and this works
+[2019-04-09 00:32:58.983] [info] Use a helper method if you want
+[2019-04-09 00:32:58.983] [info] Pass a message and this works
+[2019-04-09 00:32:58.983] [info] Use a helper method if you want
+[2019-04-09 00:32:58.983] [info] test message my string
+[2019-04-09 00:32:58.983] [info] test message 123
+[2019-04-09 00:32:58.983] [info] test message first, second
+[2019-04-09 00:32:58.983] [info] Found error at Tue Apr 09 2019 00:32:58 GMT+0200 (Paris, Madrid (heure d’été))
+[2019-04-09 00:32:58.983] [info] Found error at Error: chill winston
+[2019-04-09 00:32:58.983] [info] Found error at /WUT/
+[2019-04-09 00:32:58.983] [info] Found error at true
+[2019-04-09 00:32:58.983] [info] Found error at 100
+[2019-04-09 00:32:58.993] [info] Found error at 1, 2, 3
+[2019-04-09 00:32:58.993] [warn] Error: Error passed as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:66:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:58.993] [error] Error: Error passed as message
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:67:21)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:59.000] [warn] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:69:40)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:59.002] [error] Error: Error passed as meta
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:70:42)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:59.003] [error] Error: Error as info
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:72:14)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:32:59.004] [error] Error: Error as info
+[2019-04-09 00:32:59.005] [debug] heyyy
+[2019-04-09 00:32:59.006] [data] [object Object]
+[2019-04-09 00:32:59.006] [data] 5
+[2019-04-09 00:32:59.007] [data] 5,5
+[2019-04-09 00:32:59.077] [error] Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29)
+[2019-04-09 00:33:10.281] [info] App started.
