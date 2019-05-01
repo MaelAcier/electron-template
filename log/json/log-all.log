@@ -1,0 +1,2925 @@
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Log start. Fri Apr 05 2019 12:38:13 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'help',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'prompt',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'verbose',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'input',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'test',
+  level: 'trace',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message my string',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message 123',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message first, second',
+  timestamp: '12:38:13',
+  number: 123 }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Fri Apr 05 2019 12:38:13 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at true',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 100',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '12:38:13' }
+{ level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:38:13',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:38:13',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ filename: 'your-service-name',
+  level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:38:13' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:38:13',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 'heyyy',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: 5,
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:38:13' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Log start. Fri Apr 05 2019 12:40:09 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'help',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'prompt',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'verbose',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'input',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'test',
+  level: 'trace',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message my string',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message 123',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message first, second',
+  timestamp: '12:40:09',
+  number: 123 }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Fri Apr 05 2019 12:40:09 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at true',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 100',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '12:40:09' }
+{ level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:40:09',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:40:09',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ filename: 'your-service-name',
+  level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:40:09' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:40:09',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 'heyyy',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: 5,
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:40:09' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Log start. Fri Apr 05 2019 12:41:01 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'help',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'prompt',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'verbose',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'input',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'test',
+  level: 'trace',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message my string',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message 123',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message first, second',
+  timestamp: '12:41:01',
+  number: 123 }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Fri Apr 05 2019 12:41:01 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at true',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 100',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '12:41:01' }
+{ level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:41:01',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:41:01',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ filename: 'your-service-name',
+  level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:41:01' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:41:01',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 'heyyy',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: 5,
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:41:01' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Log start. Fri Apr 05 2019 12:43:15 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'help',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'prompt',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'verbose',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'input',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'test',
+  level: 'trace',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message my string',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message 123',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'test message first, second',
+  timestamp: '12:43:15',
+  number: 123 }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Fri Apr 05 2019 12:43:15 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at true',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 100',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '12:43:15' }
+{ level: 'warn',
+  filename: 'your-service-name',
+  timestamp: '12:43:15',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:43:15',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ filename: 'your-service-name',
+  level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:43:15' }
+{ filename: 'your-service-name',
+  level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '12:43:15' }
+{ level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:43:15',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 'heyyy',
+  level: 'debug',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: 5,
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  filename: 'your-service-name',
+  timestamp: '12:43:15' }
+{ level: 'info',
+  message: 'Log start. Fri Apr 05 2019 19:32:51 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:32:51' }
+{ message: 'test', level: 'error', timestamp: '19:32:52' }
+{ message: 'test', level: 'warn', timestamp: '19:32:52' }
+{ message: 'test', level: 'help', timestamp: '19:32:52' }
+{ message: 'test', level: 'data', timestamp: '19:32:52' }
+{ message: 'test', level: 'info', timestamp: '19:32:52' }
+{ message: 'test', level: 'debug', timestamp: '19:32:52' }
+{ message: 'test', level: 'prompt', timestamp: '19:32:52' }
+{ message: 'test', level: 'verbose', timestamp: '19:32:52' }
+{ message: 'test', level: 'input', timestamp: '19:32:52' }
+{ message: 'test', level: 'trace', timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '19:32:52' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '19:32:52' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '19:32:52' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '19:32:52',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Fri Apr 05 2019 19:32:52 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '19:32:52' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '19:32:52' }
+{ level: 'warn',
+  timestamp: '19:32:52',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  timestamp: '19:32:52',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '19:32:52' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '19:32:52' }
+{ level: 'error',
+  timestamp: '19:32:52',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '19:32:52' }
+{ message: 'heyyy', level: 'debug', timestamp: '19:32:52' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '19:32:52' }
+{ message: 'hey you', level: 'info', timestamp: '19:33:58' }
+{ message: 5, level: 'data', timestamp: '19:34:23' }
+{ message: [ 5, 5 ], level: 'data', timestamp: '19:34:23' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:93:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:93:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:93:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  exception: true,
+  date: 'Fri Apr 05 2019 19:34:23 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 1348,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '--inspect-brk=19214',
+        '.' ],
+     memoryUsage: 
+      { rss: 45281280,
+        heapTotal: 14053376,
+        heapUsed: 10809528,
+        external: 24992 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1052.6140247 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 93,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 94,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 86,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '19:34:24' }
+{ level: 'info',
+  message: 'Log start. Fri Apr 05 2019 19:34:44 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:34:44' }
+{ message: 'test', level: 'error', timestamp: '19:34:44' }
+{ message: 'test', level: 'warn', timestamp: '19:34:44' }
+{ message: 'test', level: 'help', timestamp: '19:34:44' }
+{ message: 'test', level: 'data', timestamp: '19:34:44' }
+{ message: 'test', level: 'info', timestamp: '19:34:44' }
+{ message: 'test', level: 'debug', timestamp: '19:34:44' }
+{ message: 'test', level: 'prompt', timestamp: '19:34:44' }
+{ message: 'test', level: 'verbose', timestamp: '19:34:44' }
+{ message: 'test', level: 'input', timestamp: '19:34:44' }
+{ message: 'test', level: 'trace', timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '19:34:44' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '19:34:44' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '19:34:44' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '19:34:44',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Fri Apr 05 2019 19:34:44 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '19:34:44' }
+{ level: 'warn',
+  timestamp: '19:34:44',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'error',
+  timestamp: '19:34:44',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '19:34:44' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  timestamp: '19:34:44' }
+{ level: 'error',
+  timestamp: '19:34:44',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '19:34:44' }
+{ message: 'heyyy', level: 'debug', timestamp: '19:34:44' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '19:34:44' }
+{ message: 5, level: 'data', timestamp: '19:34:44' }
+{ message: [ 5, 5 ], level: 'data', timestamp: '19:34:44' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:93:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:94:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:86:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:93:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:93:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:94:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:86:29)',
+  exception: true,
+  date: 'Fri Apr 05 2019 19:34:44 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 3828,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 43114496,
+        heapTotal: 18771968,
+        heapUsed: 11682632,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1072.6664081 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 93,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 94,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 86,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '19:34:44' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:07:13 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:07:13' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:11:13 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:11:13' }
+{ message: 'Loaded main process.',
+  level: 'info',
+  timestamp: '15:11:13' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:11:25 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:11:25' }
+{ message: 'Loaded main process.',
+  level: 'info',
+  timestamp: '15:11:25' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:11:39 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:11:39' }
+{ message: 'Loaded main process.',
+  level: 'info',
+  timestamp: '15:11:39' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:12:38 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:12:38' }
+{ message: 'Loaded main process.',
+  level: 'info',
+  timestamp: '15:12:38' }
+{ level: 'info',
+  message: 'Log start. Sat Apr 06 2019 15:12:52 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '15:12:52' }
+{ message: 'Loaded main process.',
+  level: 'info',
+  timestamp: '15:12:52' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:23:14 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'error', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'warn', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'help', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'data', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'info', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'debug', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'prompt', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'verbose', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'input', timestamp: '19:23:14:2314' }
+{ message: 'test', level: 'trace', timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '19:23:14:2314' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '19:23:14:2314' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '19:23:14:2314' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '19:23:14:2314',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Sun Apr 07 2019 19:23:14 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '19:23:14:2314' }
+{ level: 'warn',
+  timestamp: '19:23:14:2314',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:100:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '19:23:14:2314',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:100:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:100:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:23:14:2314' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:100:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:23:14:2314' }
+{ level: 'error',
+  timestamp: '19:23:14:2314',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:100:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '19:23:14:2314' }
+{ message: 'heyyy', level: 'debug', timestamp: '19:23:14:2314' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '19:23:14:2314' }
+{ message: 5, level: 'data', timestamp: '19:23:14:2314' }
+{ message: [ 5, 5 ], level: 'data', timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'my message',
+  timestamp: '19:23:14:2314' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:24:49 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'error', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'warn', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'help', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'data', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'info', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'debug', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'prompt', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'verbose', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'input', timestamp: '19:24:49:2449' }
+{ message: 'test', level: 'trace', timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '19:24:49:2449' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '19:24:49:2449' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '19:24:49:2449' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '19:24:49:2449',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Sun Apr 07 2019 19:24:49 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '19:24:49:2449' }
+{ level: 'warn',
+  timestamp: '19:24:49:2449',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:102:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '19:24:49:2449',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:102:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:102:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:24:49:2449' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:102:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:24:49:2449' }
+{ level: 'error',
+  timestamp: '19:24:49:2449',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:102:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '19:24:49:2449' }
+{ message: 'heyyy', level: 'debug', timestamp: '19:24:49:2449' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '19:24:49:2449' }
+{ message: 5, level: 'data', timestamp: '19:24:49:2449' }
+{ message: [ 5, 5 ], level: 'data', timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'my message',
+  timestamp: '19:24:49:2449' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:25:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'error', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'warn', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'help', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'data', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'info', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'debug', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'prompt', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'verbose', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'input', timestamp: '19:25:37:2537' }
+{ message: 'test', level: 'trace', timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '19:25:37:2537' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '19:25:37:2537' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '19:25:37:2537' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '19:25:37:2537',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Sun Apr 07 2019 19:25:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '19:25:37:2537' }
+{ level: 'warn',
+  timestamp: '19:25:37:2537',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '19:25:37:2537',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:25:37:2537' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '19:25:37:2537' }
+{ level: 'error',
+  timestamp: '19:25:37:2537',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '19:25:37:2537' }
+{ message: 'heyyy', level: 'debug', timestamp: '19:25:37:2537' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '19:25:37:2537' }
+{ message: 5, level: 'data', timestamp: '19:25:37:2537' }
+{ message: [ 5, 5 ], level: 'data', timestamp: '19:25:37:2537' }
+{ error: ReferenceError: level is not defined
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:96:20)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:103:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: level is not defined\nReferenceError: level is not defined\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:96:20)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'ReferenceError: level is not defined\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:96:20)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:103:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Sun Apr 07 2019 19:25:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 836,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 43347968,
+        heapTotal: 18771968,
+        heapUsed: 12148456,
+        external: 138951 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 173329.1378925 },
+  trace: 
+   [ { column: 20,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 96,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 103,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '19:25:37:2537' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:30:57 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:30:57:345' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:35:17 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:35:17:735' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:36:59 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:36:59:444' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:37:42 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:37:42:273' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:38:03 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:38:03:624' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:38:21 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:38:21:282' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:38:40 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:38:40:408' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:39:57 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:39:57:467' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:40:22 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:40:22:727' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:40:41 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:40:41:257' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:40:59 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:40:59:397' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:41:10 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:41:10:050' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:41:26 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:41:26:867' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:41:47 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:41:47:731' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:42:11 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:42:11:341' }
+{ error: TypeError: colors[Colorizer.allColors[lookup][i]] is not a function
+    at Colorizer.colorize (D:\code\Github\electron-template\node_modules\logform\colorize.js:81:55)
+    at Colorizer.transform (D:\code\Github\electron-template\node_modules\logform\colorize.js:98:25)
+    at Format.info [as transform] (D:\code\Github\electron-template\node_modules\logform\combine.js:20:24)
+    at Console._write (D:\code\Github\electron-template\node_modules\winston-transport\index.js:90:33)
+    at doWrite (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\code\Github\electron-template\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\code\Github\electron-template\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:662:20)
+    at emitOne (events.js:121:20)
+    at DerivedLogger.emit (events.js:211:7),
+  level: 'error',
+  message: 'uncaughtException: colors[Colorizer.allColors[lookup][i]] is not a function\nTypeError: colors[Colorizer.allColors[lookup][i]] is not a function\n    at Colorizer.colorize (D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js:81:55)\n    at Colorizer.transform (D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js:98:25)\n    at Format.info [as transform] (D:\\code\\Github\\electron-template\\node_modules\\logform\\combine.js:20:24)\n    at Console._write (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\index.js:90:33)\n    at doWrite (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:428:64)\n    at writeOrBuffer (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:417:5)\n    at Console.Writable.write (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:334:11)\n    at DerivedLogger.ondata (D:\\code\\Github\\electron-template\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:662:20)\n    at emitOne (events.js:121:20)\n    at DerivedLogger.emit (events.js:211:7)',
+  stack: 'TypeError: colors[Colorizer.allColors[lookup][i]] is not a function\n    at Colorizer.colorize (D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js:81:55)\n    at Colorizer.transform (D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js:98:25)\n    at Format.info [as transform] (D:\\code\\Github\\electron-template\\node_modules\\logform\\combine.js:20:24)\n    at Console._write (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\index.js:90:33)\n    at doWrite (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:428:64)\n    at writeOrBuffer (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:417:5)\n    at Console.Writable.write (D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:334:11)\n    at DerivedLogger.ondata (D:\\code\\Github\\electron-template\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:662:20)\n    at emitOne (events.js:121:20)\n    at DerivedLogger.emit (events.js:211:7)',
+  exception: true,
+  date: 'Sun Apr 07 2019 19:42:11 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 6972,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 41304064,
+        heapTotal: 18771968,
+        heapUsed: 11001664,
+        external: 114375 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 174323.0003342 },
+  trace: 
+   [ { column: 55,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js',
+       function: 'Colorizer.colorize',
+       line: 81,
+       method: 'colorize',
+       native: false },
+     { column: 25,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\logform\\colorize.js',
+       function: 'Colorizer.transform',
+       line: 98,
+       method: 'transform',
+       native: false },
+     { column: 24,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\logform\\combine.js',
+       function: 'Format.info [as transform]',
+       line: 20,
+       method: 'info [as transform]',
+       native: false },
+     { column: 33,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\index.js',
+       function: 'Console._write',
+       line: 90,
+       method: '_write',
+       native: false },
+     { column: 64,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+       function: 'doWrite',
+       line: 428,
+       method: null,
+       native: false },
+     { column: 5,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+       function: 'writeOrBuffer',
+       line: 417,
+       method: null,
+       native: false },
+     { column: 11,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js',
+       function: 'Console.Writable.write',
+       line: 334,
+       method: 'write',
+       native: false },
+     { column: 20,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js',
+       function: 'DerivedLogger.ondata',
+       line: 662,
+       method: 'ondata',
+       native: false },
+     { column: 20,
+       file: 'events.js',
+       function: 'emitOne',
+       line: 121,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'events.js',
+       function: 'DerivedLogger.emit',
+       line: 211,
+       method: 'emit',
+       native: false } ],
+  timestamp: '2019-04-07 19:42:11:434' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:42:32 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:42:32:038' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:43:15 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:43:15:150' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:43:30 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:43:30:031' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:43:40 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:43:40:694' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:43:54 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:43:54:385' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:44:36 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:44:36:350' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:45:00 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:45:00:086' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:45:09 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:45:09:550' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:45:20 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:45:20:054' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:46:04 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:46:04:369' }
+{ level: 'info',
+  message: 'Log start. Sun Apr 07 2019 19:58:23 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-07 19:58:23.554' }
+{ level: 'info',
+  message: 'Log start. Mon Apr 08 2019 22:39:50 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-08 22:39:50.889' }
+{ level: 'info',
+  message: 'Log start. Mon Apr 08 2019 22:40:39 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-08 22:40:39.181' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:09:23 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:09:23.646' }
+{ error: TypeError: Cannot read property 'red' of undefined
+    at Object.<anonymous> (D:\code\Github\electron-template\logger.js:90:46)
+    at Object.<anonymous> (D:\code\Github\electron-template\logger.js:95:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\Github\electron-template\main.js:4:16),
+  level: 'error',
+  message: 'uncaughtException: Cannot read property \'red\' of undefined\nTypeError: Cannot read property \'red\' of undefined\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\logger.js:90:46)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\logger.js:95:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main.js:4:16)',
+  stack: 'TypeError: Cannot read property \'red\' of undefined\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\logger.js:90:46)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\logger.js:95:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main.js:4:16)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:09:23 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 13884,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 41984000,
+        heapTotal: 18771968,
+        heapUsed: 11028056,
+        external: 114375 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 44285.3866631 },
+  trace: 
+   [ { column: 46,
+       file: 'D:\\code\\Github\\electron-template\\logger.js',
+       function: null,
+       line: 90,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\logger.js',
+       function: null,
+       line: 95,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 16,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: null,
+       line: 4,
+       method: null,
+       native: false } ],
+  timestamp: '2019-04-09 00:09:23.890' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:09:58 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:09:58.493' }
+{ error: { Error: Cannot find module 'robotjs'
+    at Module._resolveFilename (module.js:543:15)
+    at Function.Module._resolveFilename (D:\code\Github\electron-template\node_modules\electron\dist\resources\electron.asar\common\reset-search-paths.js:35:12)
+    at Function.Module._load (module.js:473:25)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test.js:2:13)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test.js:17:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32) code: 'MODULE_NOT_FOUND' },
+  level: 'error',
+  message: 'uncaughtException: Cannot find module \'robotjs\'\nError: Cannot find module \'robotjs\'\n    at Module._resolveFilename (module.js:543:15)\n    at Function.Module._resolveFilename (D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\resources\\electron.asar\\common\\reset-search-paths.js:35:12)\n    at Function.Module._load (module.js:473:25)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test.js:2:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test.js:17:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)',
+  stack: 'Error: Cannot find module \'robotjs\'\n    at Module._resolveFilename (module.js:543:15)\n    at Function.Module._resolveFilename (D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\resources\\electron.asar\\common\\reset-search-paths.js:35:12)\n    at Function.Module._load (module.js:473:25)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test.js:2:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test.js:17:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:09:58 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 14632,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 42426368,
+        heapTotal: 18771968,
+        heapUsed: 11245280,
+        external: 114375 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 44320.1387559 },
+  trace: 
+   [ { column: 15,
+       file: 'module.js',
+       function: 'Module._resolveFilename',
+       line: 543,
+       method: '_resolveFilename',
+       native: false },
+     { column: 12,
+       file: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\resources\\electron.asar\\common\\reset-search-paths.js',
+       function: 'Module._resolveFilename',
+       line: 35,
+       method: '_resolveFilename',
+       native: false },
+     { column: 25,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 473,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 13,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test.js',
+       function: null,
+       line: 2,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test.js',
+       function: null,
+       line: 17,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false } ],
+  timestamp: '2019-04-09 00:09:58.645' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:10:22 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:10:22.483' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:11:44 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:11:44.600' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:13:12 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:13:12.397' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:15:14 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:15:14.916' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:20:01 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:20:01.329' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:27:29 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:27:29.206' }
+{ message: 'test',
+  level: 'error',
+  timestamp: '2019-04-09 00:27:29.300' }
+{ message: 'test',
+  level: 'warn',
+  timestamp: '2019-04-09 00:27:29.301' }
+{ message: 'test',
+  level: 'help',
+  timestamp: '2019-04-09 00:27:29.302' }
+{ message: 'test',
+  level: 'data',
+  timestamp: '2019-04-09 00:27:29.302' }
+{ message: 'test',
+  level: 'info',
+  timestamp: '2019-04-09 00:27:29.303' }
+{ message: 'test',
+  level: 'debug',
+  timestamp: '2019-04-09 00:27:29.303' }
+{ message: 'test',
+  level: 'prompt',
+  timestamp: '2019-04-09 00:27:29.304' }
+{ message: 'test',
+  level: 'verbose',
+  timestamp: '2019-04-09 00:27:29.304' }
+{ message: 'test',
+  level: 'input',
+  timestamp: '2019-04-09 00:27:29.304' }
+{ message: 'test',
+  level: 'trace',
+  timestamp: '2019-04-09 00:27:29.305' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '2019-04-09 00:27:29.305' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '2019-04-09 00:27:29.306' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '2019-04-09 00:27:29.307' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '2019-04-09 00:27:29.308' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '2019-04-09 00:27:29.311' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '2019-04-09 00:27:29.312' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '2019-04-09 00:27:29.312',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Tue Apr 09 2019 00:27:29 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:27:29.313' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '2019-04-09 00:27:29.314' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '2019-04-09 00:27:29.314' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '2019-04-09 00:27:29.335' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '2019-04-09 00:27:29.335' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '2019-04-09 00:27:29.336' }
+{ level: 'warn',
+  timestamp: '2019-04-09 00:27:29.336',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:27:29.338',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:27:29.339' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:27:29.340' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:27:29.341',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '2019-04-09 00:27:29.342' }
+{ message: 'heyyy',
+  level: 'debug',
+  timestamp: '2019-04-09 00:27:29.343' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '2019-04-09 00:27:29.343' }
+{ message: 5,
+  level: 'data',
+  timestamp: '2019-04-09 00:27:29.344' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  timestamp: '2019-04-09 00:27:29.344' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:27:29 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 4368,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 42991616,
+        heapTotal: 18771968,
+        heapUsed: 11851488,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 45370.9599834 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 91,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 92,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '2019-04-09 00:27:29.466' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:28:20 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:28:20.226' }
+{ message: 'test',
+  level: 'error',
+  timestamp: '2019-04-09 00:28:20.253' }
+{ message: 'test',
+  level: 'warn',
+  timestamp: '2019-04-09 00:28:20.254' }
+{ message: 'test',
+  level: 'help',
+  timestamp: '2019-04-09 00:28:20.254' }
+{ message: 'test',
+  level: 'data',
+  timestamp: '2019-04-09 00:28:20.255' }
+{ message: 'test',
+  level: 'info',
+  timestamp: '2019-04-09 00:28:20.255' }
+{ message: 'test',
+  level: 'debug',
+  timestamp: '2019-04-09 00:28:20.256' }
+{ message: 'test',
+  level: 'prompt',
+  timestamp: '2019-04-09 00:28:20.256' }
+{ message: 'test',
+  level: 'verbose',
+  timestamp: '2019-04-09 00:28:20.257' }
+{ message: 'test',
+  level: 'input',
+  timestamp: '2019-04-09 00:28:20.258' }
+{ message: 'test',
+  level: 'trace',
+  timestamp: '2019-04-09 00:28:20.258' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '2019-04-09 00:28:20.259' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '2019-04-09 00:28:20.259' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '2019-04-09 00:28:20.260' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '2019-04-09 00:28:20.261' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '2019-04-09 00:28:20.262' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '2019-04-09 00:28:20.263' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '2019-04-09 00:28:20.263',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Tue Apr 09 2019 00:28:20 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:28:20.264' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '2019-04-09 00:28:20.265' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '2019-04-09 00:28:20.265' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '2019-04-09 00:28:20.266' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '2019-04-09 00:28:20.268' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '2019-04-09 00:28:20.268' }
+{ level: 'warn',
+  timestamp: '2019-04-09 00:28:20.269',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:28:20.271',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:28:20.272' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:28:20.273' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:28:20.274',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '2019-04-09 00:28:20.275' }
+{ message: 'heyyy',
+  level: 'debug',
+  timestamp: '2019-04-09 00:28:20.275' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '2019-04-09 00:28:20.276' }
+{ message: 5,
+  level: 'data',
+  timestamp: '2019-04-09 00:28:20.280' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  timestamp: '2019-04-09 00:28:20.282' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:28:20 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 7860,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 42975232,
+        heapTotal: 18771968,
+        heapUsed: 11850424,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 45421.856826 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 91,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 92,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '2019-04-09 00:28:20.368' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:28:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:28:37.776' }
+{ message: 'test',
+  level: 'error',
+  timestamp: '2019-04-09 00:28:37.806' }
+{ message: 'test',
+  level: 'warn',
+  timestamp: '2019-04-09 00:28:37.807' }
+{ message: 'test',
+  level: 'help',
+  timestamp: '2019-04-09 00:28:37.808' }
+{ message: 'test',
+  level: 'data',
+  timestamp: '2019-04-09 00:28:37.808' }
+{ message: 'test',
+  level: 'info',
+  timestamp: '2019-04-09 00:28:37.809' }
+{ message: 'test',
+  level: 'debug',
+  timestamp: '2019-04-09 00:28:37.809' }
+{ message: 'test',
+  level: 'prompt',
+  timestamp: '2019-04-09 00:28:37.810' }
+{ message: 'test',
+  level: 'verbose',
+  timestamp: '2019-04-09 00:28:37.810' }
+{ message: 'test',
+  level: 'input',
+  timestamp: '2019-04-09 00:28:37.811' }
+{ message: 'test',
+  level: 'trace',
+  timestamp: '2019-04-09 00:28:37.811' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '2019-04-09 00:28:37.812' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '2019-04-09 00:28:37.813' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '2019-04-09 00:28:37.814' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '2019-04-09 00:28:37.815' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '2019-04-09 00:28:37.815' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '2019-04-09 00:28:37.816' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '2019-04-09 00:28:37.817',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Tue Apr 09 2019 00:28:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:28:37.818' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '2019-04-09 00:28:37.819' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '2019-04-09 00:28:37.819' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '2019-04-09 00:28:37.820' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '2019-04-09 00:28:37.820' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '2019-04-09 00:28:37.821' }
+{ level: 'warn',
+  timestamp: '2019-04-09 00:28:37.822',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:28:37.823',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:28:37.824' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:28:37.826' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:28:37.827',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '2019-04-09 00:28:37.828' }
+{ message: 'heyyy',
+  level: 'debug',
+  timestamp: '2019-04-09 00:28:37.829' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '2019-04-09 00:28:37.829' }
+{ message: 5,
+  level: 'data',
+  timestamp: '2019-04-09 00:28:37.830' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  timestamp: '2019-04-09 00:28:37.831' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:28:37 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 7564,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 42967040,
+        heapTotal: 18771968,
+        heapUsed: 11847872,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 45439.4118396 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 91,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 92,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '2019-04-09 00:28:37.917' }
+{ level: 'info',
+  message: 'Log start. Tue Apr 09 2019 00:31:27 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:31:27.884' }
+{ message: 'test',
+  level: 'error',
+  timestamp: '2019-04-09 00:31:27.918' }
+{ message: 'test',
+  level: 'warn',
+  timestamp: '2019-04-09 00:31:27.919' }
+{ message: 'test',
+  level: 'help',
+  timestamp: '2019-04-09 00:31:27.919' }
+{ message: 'test',
+  level: 'data',
+  timestamp: '2019-04-09 00:31:27.920' }
+{ message: 'test',
+  level: 'info',
+  timestamp: '2019-04-09 00:31:27.920' }
+{ message: 'test',
+  level: 'debug',
+  timestamp: '2019-04-09 00:31:27.921' }
+{ message: 'test',
+  level: 'prompt',
+  timestamp: '2019-04-09 00:31:27.921' }
+{ message: 'test',
+  level: 'verbose',
+  timestamp: '2019-04-09 00:31:27.922' }
+{ message: 'test',
+  level: 'input',
+  timestamp: '2019-04-09 00:31:27.922' }
+{ message: 'test',
+  level: 'trace',
+  timestamp: '2019-04-09 00:31:27.923' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '2019-04-09 00:31:27.923' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '2019-04-09 00:31:27.924' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '2019-04-09 00:31:27.925' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '2019-04-09 00:31:27.925' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '2019-04-09 00:31:27.926' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '2019-04-09 00:31:27.926' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '2019-04-09 00:31:27.927',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Tue Apr 09 2019 00:31:27 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:31:27.927' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '2019-04-09 00:31:27.928' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '2019-04-09 00:31:27.929' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '2019-04-09 00:31:27.929' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '2019-04-09 00:31:27.930' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '2019-04-09 00:31:27.930' }
+{ level: 'warn',
+  timestamp: '2019-04-09 00:31:27.931',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:31:27.932',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:31:27.933' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:31:27.934' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:31:27.936',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '2019-04-09 00:31:27.937' }
+{ message: 'heyyy',
+  level: 'debug',
+  timestamp: '2019-04-09 00:31:27.938' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '2019-04-09 00:31:27.938' }
+{ message: 5,
+  level: 'data',
+  timestamp: '2019-04-09 00:31:27.939' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  timestamp: '2019-04-09 00:31:27.940' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:31:27 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 14420,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 43012096,
+        heapTotal: 18771968,
+        heapUsed: 11930880,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 45609.5185292 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 91,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 92,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '2019-04-09 00:31:28.023' }
+{ message: 'App started.',
+  level: 'info',
+  timestamp: '2019-04-09 00:32:58.963' }
+{ message: 'test',
+  level: 'error',
+  timestamp: '2019-04-09 00:32:58.973' }
+{ message: 'test',
+  level: 'warn',
+  timestamp: '2019-04-09 00:32:58.973' }
+{ message: 'test',
+  level: 'help',
+  timestamp: '2019-04-09 00:32:58.973' }
+{ message: 'test',
+  level: 'data',
+  timestamp: '2019-04-09 00:32:58.973' }
+{ message: 'test',
+  level: 'info',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'test',
+  level: 'debug',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'test',
+  level: 'prompt',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'test',
+  level: 'verbose',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'test',
+  level: 'input',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'test',
+  level: 'trace',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Pass an object and this works',
+  additional: 'properties',
+  are: 'passed along',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ message: 'Use a helper method if you want',
+  additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Pass a message and this works',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ additional: 'properties',
+  are: 'passed along',
+  level: 'info',
+  message: 'Use a helper method if you want',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'test message my string',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'test message 123',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'test message first, second',
+  timestamp: '2019-04-09 00:32:58.983',
+  number: 123 }
+{ level: 'info',
+  message: 'Found error at Tue Apr 09 2019 00:32:58 GMT+0200 (Paris, Madrid (heure d’été))',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Found error at Error: chill winston',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Found error at /WUT/',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Found error at true',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Found error at 100',
+  timestamp: '2019-04-09 00:32:58.983' }
+{ level: 'info',
+  message: 'Found error at 1, 2, 3',
+  timestamp: '2019-04-09 00:32:58.993' }
+{ level: 'warn',
+  timestamp: '2019-04-09 00:32:58.993',
+  message: 'Error passed as info',
+  stack: 'Error: Error passed as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:66:13)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:32:58.993',
+  message: 'Error passed as message',
+  stack: 'Error: Error passed as message\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:67:21)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ level: 'warn',
+  message: 'Maybe important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:69:40)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:32:59.000' }
+{ level: 'error',
+  message: 'Important error: Error passed as meta',
+  stack: 'Error: Error passed as meta\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:70:42)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  timestamp: '2019-04-09 00:32:59.002' }
+{ level: 'error',
+  timestamp: '2019-04-09 00:32:59.003',
+  message: 'Error as info',
+  stack: 'Error: Error as info\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:72:14)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)' }
+{ message: 'Error: Error as info',
+  level: 'error',
+  timestamp: '2019-04-09 00:32:59.004' }
+{ message: 'heyyy',
+  level: 'debug',
+  timestamp: '2019-04-09 00:32:59.005' }
+{ message: 
+   { error: 0,
+     debug: 1,
+     warn: 2,
+     data: 3,
+     info: 4,
+     verbose: 5,
+     silly: 6,
+     custom: 7 },
+  level: 'data',
+  timestamp: '2019-04-09 00:32:59.006' }
+{ message: 5,
+  level: 'data',
+  timestamp: '2019-04-09 00:32:59.006' }
+{ message: [ 5, 5 ],
+  level: 'data',
+  timestamp: '2019-04-09 00:32:59.007' }
+{ error: Error: Hello, winston!
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:91:7)
+    at Object.<anonymous> (D:\code\Github\electron-template\main-process\test-logger.js:92:3)
+    at Module._compile (module.js:642:30)
+    at Object.Module._extensions..js (module.js:653:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:504:12)
+    at Function.Module._load (module.js:496:3)
+    at Module.require (module.js:586:17)
+    at require (internal/module.js:11:18)
+    at files.forEach (D:\code\Github\electron-template\main.js:85:29),
+  level: 'error',
+  message: 'uncaughtException: Hello, winston!\nError: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  stack: 'Error: Hello, winston!\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:91:7)\n    at Object.<anonymous> (D:\\code\\Github\\electron-template\\main-process\\test-logger.js:92:3)\n    at Module._compile (module.js:642:30)\n    at Object.Module._extensions..js (module.js:653:10)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at files.forEach (D:\\code\\Github\\electron-template\\main.js:85:29)',
+  exception: true,
+  date: 'Tue Apr 09 2019 00:32:59 GMT+0200 (Paris, Madrid (heure d’été))',
+  process: 
+   { pid: 13784,
+     uid: null,
+     gid: null,
+     cwd: 'D:\\code\\Github\\electron-template',
+     execPath: 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+     version: 'v8.9.3',
+     argv: 
+      [ 'D:\\code\\Github\\electron-template\\node_modules\\electron\\dist\\electron.exe',
+        '.' ],
+     memoryUsage: 
+      { rss: 42913792,
+        heapTotal: 18771968,
+        heapUsed: 11783800,
+        external: 130759 } },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 45700.5730401 },
+  trace: 
+   [ { column: 7,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 91,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'D:\\code\\Github\\electron-template\\main-process\\test-logger.js',
+       function: null,
+       line: 92,
+       method: null,
+       native: false },
+     { column: 30,
+       file: 'module.js',
+       function: 'Module._compile',
+       line: 642,
+       method: '_compile',
+       native: false },
+     { column: 10,
+       file: 'module.js',
+       function: 'Module._extensions..js',
+       line: 653,
+       method: '.js',
+       native: false },
+     { column: 32,
+       file: 'module.js',
+       function: 'Module.load',
+       line: 561,
+       method: 'load',
+       native: false },
+     { column: 12,
+       file: 'module.js',
+       function: 'tryModuleLoad',
+       line: 504,
+       method: null,
+       native: false },
+     { column: 3,
+       file: 'module.js',
+       function: 'Module._load',
+       line: 496,
+       method: '_load',
+       native: false },
+     { column: 17,
+       file: 'module.js',
+       function: 'Module.require',
+       line: 586,
+       method: 'require',
+       native: false },
+     { column: 18,
+       file: 'internal/module.js',
+       function: 'require',
+       line: 11,
+       method: null,
+       native: false },
+     { column: 29,
+       file: 'D:\\code\\Github\\electron-template\\main.js',
+       function: 'files.forEach',
+       line: 85,
+       method: 'forEach',
+       native: false } ],
+  timestamp: '2019-04-09 00:32:59.077' }
+{ message: 'App started.',
+  level: 'info',
+  timestamp: '2019-04-09 00:33:10.281' }

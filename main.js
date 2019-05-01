@@ -1,7 +1,8 @@
 const path = require('path')
 const glob = require('glob')
-const {app, BrowserWindow} = require('electron')
-//const autoUpdater = require('./auto-updater')
+const { app, BrowserWindow } = require('electron')
+const logger = require('./logger.js')
+// const autoUpdater = require('./auto-updater')
 
 const debug = /--debug/.test(process.argv[2])
 
@@ -44,7 +45,7 @@ function initialize () {
 
   app.on('ready', () => {
     createWindow()
-    //autoUpdater.initialize()
+    // autoUpdater.initialize()
   })
 
   app.on('window-all-closed', () => {
@@ -82,11 +83,12 @@ function makeSingleInstance () {
 function loadMainProcess () {
   const files = glob.sync(path.join(__dirname, 'main-process/**/*.js'))
   files.forEach((file) => { require(file) })
-  //autoUpdater.updateMenu()
+  // logger.info('Loaded main process.')
+  // autoUpdater.updateMenu()
 }
 
 // Handle Squirrel on Windows startup events
-/*switch (process.argv[1]) {
+/* switch (process.argv[1]) {
   case '--squirrel-install':
     autoUpdater.createShortcut(() => { app.quit() })
     break
@@ -99,6 +101,6 @@ function loadMainProcess () {
     break
   default:
     initialize()
-}*/
+} */
 
 initialize()
