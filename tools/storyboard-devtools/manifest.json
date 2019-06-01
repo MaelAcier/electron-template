@@ -1,0 +1,26 @@
+{
+   "author": "Guillermo Grau Panea",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Gives you access to end-to-end stories (logs) for Storyboard-equipped applications",
+   "devtools_page": "devTools.html",
+   "icons": {
+      "128": "Logo128.png",
+      "16": "Logo16.png",
+      "32": "Logo32.png",
+      "48": "Logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlcuxBD3X/hyttM1CxSIVyWjY4HiEbHyxcZhf6GxO6+onm6VqKqgLHm6zf89HF269Nhnc2yDkrTc04hcxQgQ8eCvl9COXxTqR/oae16SAlpSz2SAzGq6Z9TTowjTAH1WOlIqajHNtV9m8KW1Ql9VFu3CoSiSBCVYhyCtHFChwGfb1a8SQz/NnYIbKw3bHk0y5qOun11aovyb2T6RDjT8OScOpxWCxW1kdnn1nnF9TOTWcp7atxq3GmsFxjBjES6IIupOS3eQt4wPpjQT2XWvDRMwv3xZFPRTKQEPUQ+Ah73idyJmYg02K2Q45fqhEmG3EQswCv+aPkfbg3F0P6g68PwIDAQAB",
+   "manifest_version": 2,
+   "name": "Storyboard DevTools",
+   "short_name": "Storyboard DevTools",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.1"
+}
